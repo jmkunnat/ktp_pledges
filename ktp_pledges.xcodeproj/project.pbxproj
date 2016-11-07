@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0859CDE31DD02F7500806F7F /* Speech_Bubble-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0859CDE21DD02F7500806F7F /* Speech_Bubble-50 copy.png */; };
 		362956DE1DD0217200A85D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956DD1DD0217200A85D16 /* AppDelegate.swift */; };
 		362956E01DD0217200A85D16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956DF1DD0217200A85D16 /* FirstViewController.swift */; };
 		362956E21DD0217200A85D16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956E11DD0217200A85D16 /* SecondViewController.swift */; };
@@ -18,10 +19,10 @@
 		362957181DD0260100A85D16 /* News-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 362957131DD0260100A85D16 /* News-50.png */; };
 		3629571A1DD0267C00A85D16 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 362957191DD0267C00A85D16 /* Home.png */; };
 		3629571C1DD0274000A85D16 /* Appointment Reminders-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629571B1DD0274000A85D16 /* Appointment Reminders-50.png */; };
-		3629571E1DD02B0600A85D16 /* Speech_Bubble-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629571D1DD02B0600A85D16 /* Speech_Bubble-50 copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0859CDE21DD02F7500806F7F /* Speech_Bubble-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech_Bubble-50 copy.png"; path = "Archive/Speech_Bubble-50 copy.png"; sourceTree = SOURCE_ROOT; };
 		362956DA1DD0217200A85D16 /* ktp_pledges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktp_pledges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362956DD1DD0217200A85D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		362956DF1DD0217200A85D16 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		362957131DD0260100A85D16 /* News-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "News-50.png"; path = "Archive/News-50.png"; sourceTree = SOURCE_ROOT; };
 		362957191DD0267C00A85D16 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Archive/Home.png; sourceTree = SOURCE_ROOT; };
 		3629571B1DD0274000A85D16 /* Appointment Reminders-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Appointment Reminders-50.png"; path = "Archive/Appointment Reminders-50.png"; sourceTree = SOURCE_ROOT; };
-		3629571D1DD02B0600A85D16 /* Speech_Bubble-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech_Bubble-50 copy.png"; path = "../../Speech_Bubble-50 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				362956E31DD0217200A85D16 /* Main.storyboard */,
 				362957191DD0267C00A85D16 /* Home.png */,
 				3629571B1DD0274000A85D16 /* Appointment Reminders-50.png */,
-				3629571D1DD02B0600A85D16 /* Speech_Bubble-50 copy.png */,
+				0859CDE21DD02F7500806F7F /* Speech_Bubble-50 copy.png */,
 				362957101DD0260100A85D16 /* Calendar-50.png */,
 				362957111DD0260100A85D16 /* Contacts-50.png */,
 				362957131DD0260100A85D16 /* News-50.png */,
@@ -145,12 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0859CDE31DD02F7500806F7F /* Speech_Bubble-50 copy.png in Resources */,
 				3629571A1DD0267C00A85D16 /* Home.png in Resources */,
 				3629571C1DD0274000A85D16 /* Appointment Reminders-50.png in Resources */,
 				362956EA1DD0217200A85D16 /* LaunchScreen.storyboard in Resources */,
 				362957161DD0260100A85D16 /* Contacts-50.png in Resources */,
 				362957151DD0260100A85D16 /* Calendar-50.png in Resources */,
-				3629571E1DD02B0600A85D16 /* Speech_Bubble-50 copy.png in Resources */,
 				362957181DD0260100A85D16 /* News-50.png in Resources */,
 				362956E71DD0217200A85D16 /* Assets.xcassets in Resources */,
 				362956E51DD0217200A85D16 /* Main.storyboard in Resources */,
@@ -328,6 +328,7 @@
 				362956F01DD0217200A85D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
