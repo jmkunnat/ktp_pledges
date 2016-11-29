@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "7eb3db36822179cc61916901ca0db1af"
-build_time: [531805417, 237175000]
-inputs:
-  "/Users/flyhalf1/Google Drive/ktp_pledges/ktp_pledges/SecondViewController.swift": !dirty [531804792, 0]
-  "/Users/flyhalf1/Google Drive/ktp_pledges/ktp_pledges/AppDelegate.swift": !dirty [531804792, 0]
-  "/Users/flyhalf1/Google Drive/ktp_pledges/ktp_pledges/FirstViewController.swift": !dirty [531804792, 0]

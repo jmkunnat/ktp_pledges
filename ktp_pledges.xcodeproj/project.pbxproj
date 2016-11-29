@@ -36,6 +36,7 @@
 		362957131DD0260100A85D16 /* News-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "News-50.png"; path = "Archive/News-50.png"; sourceTree = SOURCE_ROOT; };
 		362957191DD0267C00A85D16 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Archive/Home.png; sourceTree = SOURCE_ROOT; };
 		3629571B1DD0274000A85D16 /* Appointment Reminders-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Appointment Reminders-50.png"; path = "Archive/Appointment Reminders-50.png"; sourceTree = SOURCE_ROOT; };
+		AACE98B91DED286900EF4950 /* ktp_pledges.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ktp_pledges.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		362956DC1DD0217200A85D16 /* ktp_pledges */ = {
 			isa = PBXGroup;
 			children = (
+				AACE98B91DED286900EF4950 /* ktp_pledges.entitlements */,
 				362956DD1DD0217200A85D16 /* AppDelegate.swift */,
 				362956DF1DD0217200A85D16 /* FirstViewController.swift */,
 				362956E11DD0217200A85D16 /* SecondViewController.swift */,
@@ -117,8 +119,13 @@
 				TargetAttributes = {
 					362956D91DD0217100A85D16 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A82L2MU7TQ;
+						DevelopmentTeam = MBY6GR3EC8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -287,12 +294,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A82L2MU7TQ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MBY6GR3EC8;
 				INFOPLIST_FILE = ktp_pledges/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.umich.joe.ktp-pledges";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.umich.ethan.ktp-pledges";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,12 +309,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A82L2MU7TQ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MBY6GR3EC8;
 				INFOPLIST_FILE = ktp_pledges/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.umich.joe.ktp-pledges";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.umich.ethan.ktp-pledges";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
