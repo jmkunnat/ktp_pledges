@@ -1,0 +1,6 @@
+framework module Pods_ktp_pledges {
+  umbrella header "Pods-ktp_pledges-umbrella.h"
+
+  export *
+  module * { export * }
+}

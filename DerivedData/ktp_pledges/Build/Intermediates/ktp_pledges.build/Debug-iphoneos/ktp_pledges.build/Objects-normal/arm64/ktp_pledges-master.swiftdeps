@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "46508f6f6131250f277480e3160c635c"
-build_time: [532566738, 232018000]
-inputs:
-  "/Users/joekunnath/Desktop/ktp_pledges/ktp_pledges/SecondViewController.swift": [531801714, 0]
-  "/Users/joekunnath/Desktop/ktp_pledges/ktp_pledges/AppDelegate.swift": [531801714, 0]
-  "/Users/joekunnath/Desktop/ktp_pledges/ktp_pledges/FirstViewController.swift": [531801714, 0]

@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
