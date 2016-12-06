@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0859CDE31DD02F7500806F7F /* Speech_Bubble-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0859CDE21DD02F7500806F7F /* Speech_Bubble-50 copy.png */; };
 		100DCA101DF739C100C37558 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 100DCA0F1DF739C100C37558 /* GoogleService-Info.plist */; };
+		100DCA121DF744C300C37558 /* ktp riends logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 100DCA111DF744C300C37558 /* ktp riends logo.png */; };
 		362956DE1DD0217200A85D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956DD1DD0217200A85D16 /* AppDelegate.swift */; };
 		362956E01DD0217200A85D16 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956DF1DD0217200A85D16 /* FirstViewController.swift */; };
 		362956E21DD0217200A85D16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362956E11DD0217200A85D16 /* SecondViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		0859CDE21DD02F7500806F7F /* Speech_Bubble-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech_Bubble-50 copy.png"; path = "Archive/Speech_Bubble-50 copy.png"; sourceTree = SOURCE_ROOT; };
 		100DCA0F1DF739C100C37558 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		100DCA111DF744C300C37558 /* ktp riends logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ktp riends logo.png"; sourceTree = "<group>"; };
 		1DFD60A2E0CD0A527A54DEFC /* Pods_ktp_pledges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ktp_pledges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		362956DA1DD0217200A85D16 /* ktp_pledges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktp_pledges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362956DD1DD0217200A85D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				362956E81DD0217200A85D16 /* LaunchScreen.storyboard */,
 				362956EB1DD0217200A85D16 /* Info.plist */,
 				100DCA0F1DF739C100C37558 /* GoogleService-Info.plist */,
+				100DCA111DF744C300C37558 /* ktp riends logo.png */,
 			);
 			path = ktp_pledges;
 			sourceTree = "<group>";
@@ -153,7 +156,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -186,6 +189,7 @@
 				3629571A1DD0267C00A85D16 /* Home.png in Resources */,
 				3629571C1DD0274000A85D16 /* Appointment Reminders-50.png in Resources */,
 				362956EA1DD0217200A85D16 /* LaunchScreen.storyboard in Resources */,
+				100DCA121DF744C300C37558 /* ktp riends logo.png in Resources */,
 				362957161DD0260100A85D16 /* Contacts-50.png in Resources */,
 				362957151DD0260100A85D16 /* Calendar-50.png in Resources */,
 				362957181DD0260100A85D16 /* News-50.png in Resources */,
@@ -374,6 +378,7 @@
 			baseConfigurationReference = D4EB08240960A3FFC2FBDF4D /* Pods-ktp_pledges.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ktp_pledges/ktp_pledges.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = MBY6GR3EC8;
 				INFOPLIST_FILE = ktp_pledges/Info.plist;
@@ -390,6 +395,7 @@
 			baseConfigurationReference = A2A7F3673DF017D504F2E52E /* Pods-ktp_pledges.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ktp_pledges/ktp_pledges.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = MBY6GR3EC8;
 				INFOPLIST_FILE = ktp_pledges/Info.plist;
