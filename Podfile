@@ -6,7 +6,9 @@ target 'ktp_pledges' do
   use_frameworks!
 
   # Pods for ktp_pledges
-  pod 'Firebase/Core'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  pod 'Firebase/Auth'
   pod 'GoogleSignIn'
-
 end
