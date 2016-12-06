@@ -49,7 +49,7 @@
                                                 </connections>
                                             </button>
                                             <connections>
-                                                <segue destination="xq5-FA-XO3" kind="presentation" id="gGH-hE-LtD"/>
+                                                <segue destination="xq5-FA-XO3" kind="show" identifier="returnToLogin" id="gGH-hE-LtD"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>

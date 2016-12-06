@@ -16,6 +16,7 @@ class SecondViewController: UIViewController {
     @IBAction func signOut(_ sender: Any) {
         GIDSignIn.sharedInstance().signOut()
         print("successfully signed out")
+        self.performSegue(withIdentifier: "returnToLogin", sender: nil)
     }
 
     
