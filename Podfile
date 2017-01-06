@@ -9,6 +9,7 @@ target 'ktp_pledges' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKShareKit'
   pod 'FBSDKLoginKit'
+  pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
 end

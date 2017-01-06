@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        print("ran sign")
         if let err = error {
             print("Failed to log into Google: ", err)
             return
@@ -48,7 +49,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             
             guard let uid = user?.uid else { return }
             print("Successfully logged into Firebase with Google", uid)
+
             self.window?.rootViewController?.performSegue(withIdentifier: "switchToHome", sender: nil)
+            
             
             
         })

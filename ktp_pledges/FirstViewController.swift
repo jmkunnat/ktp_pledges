@@ -32,5 +32,6 @@ class FirstViewController: UIViewController, GIDSignInUIDelegate {
     
     func handleCustomGoogleSign() {
         GIDSignIn.sharedInstance().signIn()
+        print("used handleCustomGoogleSign")
 }
 }
